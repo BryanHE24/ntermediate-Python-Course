@@ -1,0 +1,7 @@
+points2D = [(1,2), (15,1), (5,-1), (10,4)]
+# Sort the elements of points2D
+points2D_sorted = sorted(points2D, key=lambda x: x[1])
+# print them
+print(points2D)
+print(points2D_sorted)
+
